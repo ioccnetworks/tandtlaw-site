@@ -1,0 +1,92 @@
+/* Expanding Bar Module */
+
+.et_color_scheme_green .et_pb_bg_layout_light .et_pb_b3_promo_button{color: #7cc68d;}
+.et_color_scheme_pink .et_pb_bg_layout_light .et_pb_b3_promo_button{color: #c37cc6;}
+.et_color_scheme_red .et_pb_bg_layout_light .et_pb_b3_promo_button{color: #cd5c5c;}
+.et_color_scheme_orange .et_pb_bg_layout_light .et_pb_b3_promo_button{color: #edb059;}
+.et_color_scheme_green .et_pb_b3_promo_button,.et_color_scheme_pink .et_pb_b3_promo_button,.et_color_scheme_red .et_pb_b3_promo_button,.et_color_scheme_orange .et_pb_b3_promo_button{color: inherit !important;}
+.et_pb_b3_promo_description{word-wrap: break-word;}
+.et_pb_bg_layout_light .et_pb_b3_promo_button{color: #2ea3f2;}
+.et_pb_b3_promo_button:hover:after{margin-left: 0;opacity: 1;}
+.et_pb_b3_promo {padding: 40px 60px;/*text-align: center;*/}
+.et_pb_b3_promo_description {position: relative;padding-bottom: 20px;}
+.et_pb_b3_promo_description p:last-of-type {padding-bottom: 0;}
+.et_pb_b3_promo_button,.et_pb_module.et_pb_button {display: inline-block;color: inherit;}
+.et_pb_b3_promo_button:hover {text-decoration: none;}
+.et_pb_column_1_2 .et_pb_b3_promo,.et_pb_column_1_3 .et_pb_b3_promo,.et_pb_column_1_4 .et_pb_b3_promo {padding: 40px;}
+.et_pb_b3_promo_button:after{font-family: "ETmodules" !important;font-weight: normal;font-style: normal;font-variant: normal;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;line-height: 1;text-transform: none;speak: none;}
+.et_pb_b3_promo {padding: 40px;}
+
+
+
+.et_pb_expanding_bar_section .et_pb_row_fullwidth{
+    transition: all .7s ease ;
+    -moz-transition: all .7s ease;
+    -webkit-transition: all .7s ease; 
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+.expanding_bar_highlight .et_pb_expanding_bar_section .et_pb_row.et_pb_row_fullwidth{ 
+ /* width: 100% !important;
+  max-width:100% !important; */
+   transition: all .7s ease;
+    -moz-transition: all .7s ease;
+    -webkit-transition: all .7s ease;
+}
+.expanding_bar_highlight .et_pb_expanding_bar_section .et_pb_row.et_pb_row_fullwidth .et_pb_b3_promo{ 
+     transition: all .7s ease;
+    -moz-transition: all .7s ease;
+    -webkit-transition: all .7s ease; 
+}
+.et_pb_expanding_bar_section { padding: 30px 0; }
+.expanding_bar_highlight .et_pb_expanding_bar_section .et_pb_row_fullwidth{ border-radius: 0px; }
+.et_pb_expanding_bar_section .et_pb_expanding_bar_container:before { width:0px !important; }
+.et_pb_expanding_bar_section .et_pb_row_fullwidth { max-width:1600px !important;}
+
+.et_pb_expanding_bar_section .et_pb_row.et_pb_row_fullwidth{ 
+   box-shadow: 0 20px 150px rgba(22, 22, 22, 0.12);
+  -webkit-box-shadow: 0 20px 150px rgba(22, 22, 22, 0.12);
+  -moz-box-shadow: 0 20px 150px rgba(22, 22, 22, 0.12);
+  -o-box-shadow: 0 20px 150px rgba(22, 22, 22, 0.12);
+}
+body.expanding_bar_highlight .et_pb_expanding_bar_section .et_pb_row.et_pb_row_fullwidth
+{
+box-shadow: 0 40px 150px rgba(65, 80, 73, 0.3);
+  -webkit-box-shadow: 0 40px 150px rgba(65, 80, 73, 0.3);
+  -moz-box-shadow: 0 40px 150px rgba(65, 80, 73, 0.3);
+  -o-box-shadow: 0 40px 150px rgba(65, 80, 73, 0.3);
+ } 
+
+.et_pb_expanding_bar_section .et_pb_b3_promo .et_pb_b3_promo_description h2,.et_pb_expanding_bar_section .et_pb_b3_promo .et_pb_b3_promo_description p{
+
+     transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -webkit-transition: all .6s ease; 
+
+}
+
+body.expanding_bar_highlight .et_pb_expanding_bar_section .et_pb_b3_promo .et_pb_b3_promo_description h2,body.expanding_bar_highlight .et_pb_expanding_bar_section .et_pb_b3_promo .et_pb_b3_promo_description p{
+
+     transition: all .7s ease;
+    -moz-transition: all .7s ease;
+    -webkit-transition: all .7s ease; 
+
+}
+.expanding-bar-overlap-row {
+   z-index:2;
+}
+
+.et_pb_button.et_pb_b3_promo_button, .et_pb_button.et_pb_b3_promo_button{
+    -webkit-transition: all .6s !important;
+    -moz-transition: all .6s !important;
+    transition: all .6s !important;
+}
+.et_pb_button.et_pb_b3_promo_button:hover, .et_pb_button.et_pb_b3_promo_button:hover {
+    -webkit-transition: all .2s !important;
+    -moz-transition: all .2s !important;
+    transition: all .2s !important;
+}
+.expanding_bar_highlight_button.et_pb_b3_promo_button.et_pb_button:after {
+    font-size: 1em !important;
+}
